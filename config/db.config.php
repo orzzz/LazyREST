@@ -14,10 +14,10 @@ if( defined('SAE_APPNAME') )
 }
 else
 {
-	$GLOBALS['config']['db']['db_host'] = 'localhost';
+	$GLOBALS['config']['db']['db_host'] = '10.10.11.174';
 	$GLOBALS['config']['db']['db_port'] = 3306;
-	$GLOBALS['config']['db']['db_user'] = 'root';
-	$GLOBALS['config']['db']['db_password'] = '';
-	$GLOBALS['config']['db']['db_name'] = 'packages';
+	$GLOBALS['config']['db']['db_user'] = 'umdAafoKpq612HB5';
+	$GLOBALS['config']['db']['db_password'] = 'pPsTgSyJxvABRFnfe';
+	$GLOBALS['config']['db']['db_name'] = 'b8uzkt4Rmwv7d3iF';
 
 }
