@@ -14,10 +14,10 @@ if( defined('SAE_APPNAME') )
 }
 else
 {
-	$GLOBALS['config']['db']['db_host'] = getenv('MYSQL_SERVER');
+	$GLOBALS['config']['db']['db_host'] = 'localhost';
 	$GLOBALS['config']['db']['db_port'] = 3306;
-	$GLOBALS['config']['db']['db_user'] = getenv('MYSQL_USER');
-	$GLOBALS['config']['db']['db_password'] = getenv('MYSQL_PASSWORD');
-	$GLOBALS['config']['db']['db_name'] = getenv('MYSQL_DATABASE');
+	$GLOBALS['config']['db']['db_user'] = 'root';
+	$GLOBALS['config']['db']['db_password'] = '';
+	$GLOBALS['config']['db']['db_name'] = 'packages';
 
 }
